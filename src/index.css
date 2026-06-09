@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+    themes: light --default;
+}
+
+@keyframes modal-slide-up {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.modal-slide-up {
+    animation: modal-slide-up 1.3s ease-out;
+}
