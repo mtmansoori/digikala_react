@@ -97,10 +97,5 @@ Product and category data is served from a local `db.json` file located in the `
 - It is not affiliated with or endorsed by Digikala.
 - All brand assets (logos, icons, etc.) belong to their respective owners.
 
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 </div>
