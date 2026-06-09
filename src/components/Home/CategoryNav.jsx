@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import SearchBar from "../../components/Home/SearchBar";
+import { BiBell } from "react-icons/bi";
 
 const CategoryNav = () => {
 
@@ -70,6 +72,12 @@ const CategoryNav = () => {
 
                 </div>
             ))}
+        </div>
+        <div className="w-full flex items-center gap-2 py-2">
+            <SearchBar />
+            <div className="border rounded-full bg-white border-stone-300">
+                <BiBell className="text-3xl text-neutral-600 p-2 w-full h-full" />
+            </div>
         </div>
     </div >
     );
