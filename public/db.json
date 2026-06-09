@@ -5603,133 +5603,118 @@
   ],
   "listModal": [
     {
-      "icon": "./img/category/img-1.png",
-      "text": "سوپرمارکت فوری",
-      "url": "#"
-    },
-    {
-      "icon": "./img/category/img-2.png",
-      "text": "طلا و نقره دیجیتال",
-      "url": "#"
-    },
-    {
-      "icon": "./img/category/img-3.png",
-      "text": "وام بانکی، اعتبار خرید",
-      "url": "#"
-    },
-    {
-      "icon": "./img/category/img-4.png",
-      "text": "پاوربانک و پاوراستیشن",
-      "url": "#"
-    },
-    {
-      "icon": "./img/category/img-5.png",
+      "icon": "/assets/images/category/img-5.png",
       "text": "صنایع دستی",
       "url": "#"
     },
     {
-      "icon": "./img/category/img-6.png",
-      "text": "اسپری و بادی اسپلش",
+      "icon": "/assets/images/category/img-4.png",
+      "text": "پاوربانک و پاوراستیشن",
       "url": "#"
     },
     {
-      "icon": "./img/category/img-8.png",
-      "text": "حراج میان فصل",
+      "icon": "/assets/images/category/modal/img-1.jpg",
+      "text": "تخفیف طلا و نقره",
       "url": "#"
     },
     {
-      "icon": "./img/category/img-9.png",
-      "text": "کالکش 2026 لگو",
+      "icon": "/assets/images/category/modal/img-2.jpg",
+      "text": "برای روزهای آفتابی",
       "url": "#"
     },
     {
-      "icon": "./img/category/img-10.png",
-      "text": "اشتراک پلاس",
+      "icon": "/assets/images/category/modal/img-3.png",
+      "text": "شبکه های اجتماعی",
       "url": "#"
     },
     {
-      "icon": "./img/category/modal/img-8.png",
+      "icon": "/assets/images/category/img-8.png",
+      "text": "کالکشن لگو",
+      "url": "#"
+    },
+    {
+      "icon": "/assets/images/category/modal/img-4.png",
       "text": "پیشنهاد هفته",
-      "link": "#"
+      "url": "#"
     },
     {
-      "icon": "./img/category/modal/img-9.png",
-      "text": "برق و شارژی",
-      "link": "#"
-    },
-    {
-      "icon": "./img/category/modal/img-10.png",
-      "text": "خریدحضوری ازدیجی‌کالا",
-      "link": "#"
-    },
-    {
-      "icon": "./img/category/modal/img-11.png",
+      "icon": "/assets/images/category/modal/img-5.png",
       "text": "سوپرمارکت",
+      "url": "#"
+    },
+    {
+      "icon": "/assets/images/category/modal/img-6.png",
+      "text": "دیجی سرویس",
+      "url": "#"
+    },
+    {
+      "icon": "/assets/images/category/modal/img-7.png",
+      "text": "فروشگاه حضوری دیجی کالا",
       "link": "#"
     },
     {
-      "icon": "./img/category/modal/img-12.png",
-      "text": "دیجی‌کلاب",
+      "icon": "/assets/images/category/modal/img-8.png",
+      "text": "دیجی کلاب",
       "link": "#"
     }
   ],
   "modalService": [
     {
-      "pic": "./img/category/modal/pic-1.png",
-      "title": "طلای دیجیتال",
+      "pic": "/assets/images/category/img-2.png",
+      "title": "طلا و نقره دیجیتال",
       "text": "",
       "link": "#"
     },
     {
-      "pic": "./img/category/modal/pic-2.png",
-      "title": "پلاس",
-      "text": "خریدی سریع‌تر و راحت‌تر و ارزان‌تر از دیجی‌کالا",
+      "pic": "/assets/images/category/img-3.png",
+      "title": "وام بانکی،اعتبار خرید",
+      "text": "",
       "link": "#"
     },
     {
-      "pic": "./img/category/modal/pic-3.png",
-      "title": "خرید قسطی",
-      "text": "خرید قسطی گوشی موبایل، لپ‌تاپ، طلا و لوازم خانگی",
+      "pic": "/assets/images/category/img-9.png",
+      "title": "اشتراک پلاس",
+      "text": "",
       "link": "#"
     },
     {
-      "pic": "./img/category/modal/pic-4.png",
-      "title": "دیجی‌کالا مهر",
-      "text": "همه چیز برای این روزا",
-      "link": "#"
-    },
-    {
-      "pic": "./img/category/modal/pic-5.png",
-      "title": "همکاری در فروش دیجی کالا",
-      "text": "کسب درآمد از همکاری در فروش محصولات دیجی‌کالا از طریق تولید محتوا",
-      "link": "#"
-    },
-    {
-      "pic": "./img/category/modal/pic-6.png",
-      "title": "دیجی‌کالا بیزینس",
-      "text": "پلتفرم اختصاصی فروش عمده موبایل و کالای دیجیتال",
-      "link": "#"
-    },
-    {
-      "pic": "./img/category/modal/pic-7.png",
-      "title": "پیندو",
-      "text": "ثبت آگهی برای کالا و خدمات",
-      "link": "#"
-    },
-    {
-      "pic": "./img/category/modal/pic-8.png",
-      "title": "بومی‌محلی",
-      "text": "محصولات بومی و محلی با هدف توانمندسازی کسب‌وکارهای خرد شهری و روستایی در خانواده دیجی‌کالا ایجاد شده و میزبان محصولات اصیل و متفاوتی از چهارگوشه ایران است.",
-      "link": "#"
-    },
-    {
-      "pic": "./img/category/modal/pic-9.png",
+      "pic": "/assets/images/category/modal/img-6.png",
       "title": "دیجی‌کالا سرویس",
       "text": "گارانتی و خدمات پس از فروش دیجی‌کالا",
       "link": "#"
     },
     {
-      "pic": "./img/category/modal/pic-10.png",
+      "pic": "/assets/images/category/modal/img-9.png",
+      "title": "دیجی استایل",
+      "text": "استایل منتخب از برندهای معتبر",
+      "link": "#"
+    },
+    {
+      "pic": "/assets/images/category/modal/img-10.png",
+      "title": "دیجی‌کالا مهر",
+      "text": "همه چیز برای این روزا",
+      "link": "#"
+    },
+    {
+      "pic": "/assets/images/category/modal/img-11.png",
+      "title": "همکاری در فروش دیجی کالا",
+      "text": "کسب درآمد از همکاری در فروش محصولات دیجی کالا از طریق تولید محتوا",
+      "link": "#"
+    },
+    {
+      "pic": "/assets/images/category/modal/img-12.png",
+      "title": "دیجی کالا بیزینس",
+    "text" : "پلتفرم اختصاصی فروش عمده موبایل و کالای دیجیتال",
+      "link": "#"
+    },
+    {
+      "pic": "/assets/images/category/modal/img-13.png",
+      "title": "بومی محلی",
+      "text": "محصولات بومی و محلی با هدف توانمندسازی کسب‌وکارهای خرد شهری و روستایی در خانواده دیجی‌کالا ایجاد شده و میزبان محصولات اصیل و متفاوتی از چهارگوشه ایران است.",
+      "link": "#"
+    },
+    {
+      "pic": "/assets/images/category/modal/img-14.png",
       "title": "فیدیبو",
       "text": "خرید کتاب و دانلود کتاب الکترونیک",
       "link": "#"
