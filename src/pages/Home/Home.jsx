@@ -5,11 +5,12 @@ import { BiBell } from "react-icons/bi";
 import TopSlider from "../../components/Home/TopSlider";
 import BottomNav from "../../components/BottomNav/BottomNav"
 import CategoryList from "../../components/Home/CategoryList";
+import AmazingOffers from "../../components/Home/AmazingOffers/AmazingOffers";
 
 
 
 const Home = () => {
-    return (<div  >
+    return (<div className="pb-20" >
         <img src='/assets/images/mobile-banner.gif' alt="" className=" block  object-cover h-9 !-full" />
         <div className="px-3 bg-neutral-100">
             <CategoryNav />
@@ -22,7 +23,11 @@ const Home = () => {
             <AddressBar />
             <TopSlider />
             <CategoryList />
+            <div className="-mx-3">
+                <AmazingOffers />
+            </div>
         </div>
+
         <BottomNav />
 
     </div>);

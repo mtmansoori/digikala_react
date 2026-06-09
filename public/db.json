@@ -5723,100 +5723,100 @@
   "incredible": [
     {
       "border": true,
-      "img": "./img/inc/img-1.jpg",
-      "title": "ساندبار هیسکا مدل B203",
-      "discount": "۲۴٪",
-      "newPrice": "۸,۹۹۰,۰۰۰",
-      "oldPrice": "۱۱,۹۰۰,۰۰۰"
+      "img": "/assets/images/AmazingOffers/img-1.webp",
+      "title": "فشارسنج بازویی دیجیتال فوکسی مدل ECCO به همراه پاوربانک فوکسی",
+      "discount": "۴۵%",
+      "newPrice": "۳,۵۳۹,۰۰۰",
+      "oldPrice": "۶,۳۹۰,۰۰۰"
     },
     {
       "border": false,
-      "img": "./img/inc/img-2.jpg",
-      "title": "ماساژور برقی ریمکس مدل RM-8787",
-      "discount": "۴۵٪",
-      "newPrice": "۶,۶۰۰,۰۰۰",
-      "oldPrice": "۱۲,۰۰۰,۰۰۰"
+      "img": "/assets/images/AmazingOffers/img-2.webp",
+      "title": "ست سرهمی و کلاه نوزادی مدل غورباقه",
+      "discount": "۴۸%",
+      "newPrice": "۴۴۲,۰۰۰",
+      "oldPrice": "۸۵۰,۰۰۰"
     },
     {
       "border": false,
-      "img": "./img/inc/img-3.jpg",
-      "title": "کنسول بازی سونی مدل PlayStation 5 Slim Digital",
-      "discount": "۱۱٪",
-      "newPrice": "۹۷,۹۹۹,۰۰۰",
-      "oldPrice": "۱۱۰,۰۰۰,۰۰۰"
+      "img": "/assets/images/AmazingOffers/img-3.webp",
+      "title": "یخچال 5 فوت ایستکول مدل 2835",
+      "discount": "۲۰٪",
+      "newPrice": "۲۴,۱۶۶,۸۰۰",
+      "oldPrice": "۳۰,۲۰۸,۵۰۰"
     },
     {
       "border": false,
-      "img": "./img/inc/img-4.jpg",
-      "title": "ماشین لباسشویی ۹ کیلوگرم اتوماتیک دیپوینت",
-      "discount": "۳۰٪",
-      "newPrice": "۶۵,۵۰۰,۰۰۰",
-      "oldPrice": "۹۳,۴۷۷,۱۰۰"
+      "img": "/assets/images/AmazingOffers/img-4.webp",
+      "title": "لپ تاپ 15.6 اینچی لنوو مدل V15 G2 IJL-Celeron N4500-8GB DDR4 2933MHz-256GB SSD-TN",
+      "discount": "۸٪",
+      "newPrice": "۴۸,۹۹۹,۰۰۰",
+      "oldPrice": "۵۳,۰۰۰,۰۰۰"
     },
     {
       "border": false,
-      "img": "./img/inc/img-5.jpg",
-      "title": "گردنبند طلا ۱۸ عیار زنانه با زنجیر حلقه‌ای",
+      "img": "/assets/images/AmazingOffers/img-5.webp",
+      "title": "مبل تختخواب شو هشت نفره یابان مدل لورنت",
       "discount": "۱۴٪",
-      "newPrice": "۱۴,۹۵۵,۵۵۰",
-      "oldPrice": "۱۷,۳۴۱,۰۴۰"
+      "newPrice": "۶۲,۶۹۴,۰۰۰",
+      "oldPrice": "۷۲,۹۰۰,۰۰۰"
     },
     {
       "border": false,
-      "img": "./img/inc/img-6.jpg",
-      "title": "هواپز فیلیپس مدل NA230/00",
-      "discount": "۱۳٪",
-      "newPrice": "۱۴,۷۹۰,۰۰۰",
-      "oldPrice": "۱۷,۰۰۰,۰۰۰"
+      "img": "/assets/images/AmazingOffers/img-6.webp",
+      "title": "ساعت هوشمند 47 میلی متری شیائومی مدل Redmi Watch 4",
+      "discount": "۱۴٪",
+      "newPrice": "۱۲,۴۹۹,۰۰۰",
+      "oldPrice": "۱۹,۴۰۴,۷۰۰"
     },
 
     {
       "border": false,
-      "img": "./img/inc/img-7.jpg",
-      "title": "جارو رباتیک شیائومی مدل S40",
-      "discount": "۷٪",
-      "newPrice": "۳۱,۴۹۹,۰۰۰",
-      "oldPrice": "۳۴,۰۰۰,۰۰۰"
+      "img": "/assets/images/AmazingOffers/img-7.webp",
+      "title": "دستگاه تصفیه کننده آب زینود مدل کیسی CX107-WTDSM به همراه سختی سنج TDS-3",
+      "discount": "۵۵٪",
+      "newPrice": "۱۳,۸۹۰,۰۰۰",
+      "oldPrice": "۳۰,۶۰۰,۰۰۰"
     },
     {
       "border": false,
-      "img": "./img/inc/img-8.jpg",
-      "title": "ماشین اصلاح موی صورت و بدن بانوان مدل T1",
-      "discount": "۴۰٪",
-      "newPrice": "۸۳۷,۰۰۰",
-      "oldPrice": "۱,۳۹۵,۰۰۰"
+      "img": "/assets/images/AmazingOffers/img-8.webp",
+      "title": "چای ساز روی هم هایبورگ مدل TM-4010",
+      "discount": "۳۷٪",
+      "newPrice": "۷,۲۹۰,۰۰۰",
+      "oldPrice": "۱۱,۵۰۴,۱۵۰"
     },
     {
       "border": false,
-      "img": "./img/inc/img-9.jpg",
-      "title": "خمیر دندان سفیدکننده میسویک مدل X-13",
-      "discount": "۳۴٪",
-      "newPrice": "۲۷۷,۷۰۰",
-      "oldPrice": "۴۲۱,۹۰۰"
+      "img": "/assets/images/AmazingOffers/img-9.webp",
+      "title": "ساعت هوشمند شیائومی مدل Redmi Watch 5 Lite دارای قابلیت های قابلیت مکالمه از طریق بلوتوث بند سیلیکون",
+      "discount": "۲۱٪",
+      "newPrice": "۸,۰۹۹,۰۰۰",
+      "oldPrice": "۱۰,۲۹۷,۰۰۰"
     },
     {
       "border": false,
-      "img": "./img/inc/img-10.jpg",
-      "title": "جارو رباتیک شیائومی مدل H40",
-      "discount": "۴٪",
-      "newPrice": "۴۳,۹۹۰,۰۰۰",
-      "oldPrice": "۴۶,۰۰۰,۰۰۰"
+      "img": "/assets/images/AmazingOffers/img-10.webp",
+      "title": "دستگاه تصفیه کننده آب آکواپرفکت راد مدل AP9OABP13-S-TM",
+      "discount": "۴۲٪",
+      "newPrice": "۲۳,۸۹۰,۰۰۰",
+      "oldPrice": "۴۱,۵۱۵,۰۰۰"
     },
     {
       "border": false,
-      "img": "./img/inc/img-11.jpg",
-      "title": "تونر پاک‌کننده صورت لورآل مدل مولتی اکتیو",
-      "discount": "۴۰٪",
-      "newPrice": "۱۷۵,۶۸۰",
-      "oldPrice": "۲۹۲,۸۰۰"
+      "img": "/assets/images/AmazingOffers/img-11.webp",
+      "title": "اکتان بوستر کاسپین مدل 300 حجم 300 میلی لیتر",
+      "discount": "۲۳٪",
+      "newPrice": "۴۵۹,۰۰۰",
+      "oldPrice": "۵۹۶,۰۰۰"
     },
     {
       "border": false,
-      "img": "./img/inc/img-12.jpg",
-      "title": "تبلت اپل مدل iPad 11 2025 Wi-Fi 128GB",
-      "discount": "۳٪",
-      "newPrice": "۵۸,۹۹۹,۰۰۰",
-      "oldPrice": "۶۱,۰۰۰,۰۰۰"
+      "img": "/assets/images/AmazingOffers/img-12.webp",
+      "title": "دستگاه تصفیه کننده هوا شیائومی مدل Air Purifier 4 Lite",
+      "discount": "۱۷٪",
+      "newPrice": "۱۹,۵۰۰,۰۰۰",
+      "oldPrice": "۲۳,۶۰۰,۸۴۰"
     }
   ],
   "ads": [

@@ -48,7 +48,7 @@ const CategoryNav = () => {
         }
     }, []);
 
-    return (<div className="sticky top-0 w-full p-1 overflow-scroll  bg-neutral-100 scrollbar-none [&::-webkit-scrollbar]:hidden">
+    return (<div className="sticky top-0 w-full p-1 overflow-scroll  z-99 bg-neutral-100 scrollbar-none [&::-webkit-scrollbar]:hidden">
         <div className="flex items-center gap-2  py-2 whitespace-nowrap">
             {services.map((item, index) => (
                 <div

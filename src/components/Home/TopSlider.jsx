@@ -18,7 +18,7 @@ const TopSlider = () => {
     useEffect(() => {
         fetchSlidedr();
     }, [])
-    return (<div>
+    return (
         <Swiper
             dir="rtl"
             spaceBetween={10}
@@ -43,8 +43,7 @@ const TopSlider = () => {
                     </a>
                 </SwiperSlide>
             ))}
-        </Swiper>
-    </div >);
+        </Swiper>);
 }
 
 export default TopSlider;

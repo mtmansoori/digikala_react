@@ -32,7 +32,6 @@ const CategoryListModal = () => {
         fetchModalServices();
     }, [])
 
-    console.log(modalServices);
     return (
         <dialog id="my_modal_3" className="modal modal-bottom p-0"
             onCancel={(e) => {
