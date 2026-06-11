@@ -4,9 +4,8 @@ import CategoryNav from "../../components/Home/CategoryNav";
 import TopSlider from "../../components/Home/TopSlider";
 import BottomNav from "../../components/BottomNav/BottomNav"
 import CategoryList from "../../components/Home/CategoryList";
-import AmazingOffers from "../../components/Home/AmazingOffers/AmazingOffers";
-
-
+import Incredible from "../../components/Home/Incredible/Incredible";
+import Ads from "../../components/Home/Ads/Ads";
 
 const Home = () => {
     return (
@@ -25,8 +24,9 @@ const Home = () => {
                 <CategoryList />
 
                 <div className="-mx-3">
-                    <AmazingOffers />
+                    <Incredible />
                 </div>
+                <Ads/>
             </div>
 
             <BottomNav />

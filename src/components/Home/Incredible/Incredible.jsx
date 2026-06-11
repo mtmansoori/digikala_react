@@ -1,8 +1,8 @@
 import { AiOutlineLeft } from "react-icons/ai";
 import Cards from "./Cards";
 
-const AmazingOffers = () => {
-    return (<div className="bg-[linear-gradient(225deg,#d22c4e_0%,#ee384e_100%)]  ">
+const Incredible = () => {
+    return (<div className="bg-[linear-gradient(225deg,#d22c4e_0%,#ee384e_100%)] h-fit  ">
         <div className="flex items-center ">
             <div className="flex w-full items-center justify-between pt-5 px-4 pb-3">
                 <div className="flex gap-2">
@@ -33,4 +33,4 @@ const AmazingOffers = () => {
     </div>);
 }
 
-export default AmazingOffers;
+export default Incredible;

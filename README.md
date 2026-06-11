@@ -22,6 +22,7 @@ A front-end clone of [Digikala](https://www.digikala.com) — Iran's largest e-c
 |---|---|
 | [React 19](https://react.dev) | UI framework |
 | [Tailwind CSS 4](https://tailwindcss.com) | Utility-first styling |
+| [TanStack](https://tanstack.com/) | Data fetching, caching, and server state management |
 | [DaisyUI](https://daisyui.com) | Component library |
 | [Swiper](https://swiperjs.com) | Touch sliders & carousels |
 | [React Router](https://reactrouter.com) | Client-side routing |

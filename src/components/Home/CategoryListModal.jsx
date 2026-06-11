@@ -1,37 +1,8 @@
 import { AiOutlineClose, AiOutlineArrowLeft } from "react-icons/ai";
-
-import { useEffect, useState } from "react";
+import { useCategoryListModal } from "../../Hooks/Home/useCategoryListModal";
 const CategoryListModal = () => {
-
-    const [listModal, setListModal] = useState([]);
-    const [modalServices, setModalServices] = useState([]);
-
-    const fetchListModal = async () => {
-        try {
-            const data = await fetch("/db.json");
-            const res = await data.json();
-            setListModal(res.listModal);
-        } catch (error) {
-            console.log(error.message);
-        }
-
-    };
-
-    const fetchModalServices = async () => {
-        try {
-            const data = await fetch("/db.json");
-            const res = await data.json();
-            setModalServices(res.modalService);
-        } catch (error) {
-            console.log(error.message);
-        }
-    }
-
-    useEffect(() => {
-        fetchListModal();
-        fetchModalServices();
-    }, [])
-
+    const { listModal, modalServices } = useCategoryListModal();
+    
     return (
         <dialog id="my_modal_3" className="modal modal-bottom p-0"
             onCancel={(e) => {

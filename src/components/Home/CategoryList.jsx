@@ -1,37 +1,20 @@
-import { useEffect, useState } from "react";
 import CategoryListModal from "./CategoryListModal";
+import { useCategoryList } from "../../Hooks/Home/useCategoryList";
 
 const CategoryList = () => {
-
-    const [categoryList, setCategoryList] = useState([]);
-
-
-    const fetchCategoryListData = async () => {
-        try {
-            const data = await fetch("/db.json");
-            const res = await data.json();
-            setCategoryList(res.list);
-        } catch (error) {
-            console.log(error.message);
-        }
-
-    }
-
-    useEffect(() => {
-        fetchCategoryListData();
-    }, []);
-
+    const { data: categoryList = [], isLoading, isError } = useCategoryList();
     const handleCategoryClick = (index) => {
         const isLastItem = index === categoryList.length - 1;
 
         if (isLastItem) {
-            document.getElementById("my_modal_3")?.showModal()
+            document.getElementById("my_modal_3")?.showModal();
             return;
         }
 
         handleActiveService(index);
     };
-
+    if (isLoading) return null;
+    if (isError) return null;
     return (
         <>
             <div className="w-full py-4 overflow-x-auto scrollbar-none [&::-webkit-scrollbar]:hidden">

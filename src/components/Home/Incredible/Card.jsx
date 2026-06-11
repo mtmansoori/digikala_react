@@ -1,13 +1,10 @@
 const Card = ({ item, index, total }) => {
-    const isFirstItem = index === 0;
-    const isLastItem = index === total - 1;
 
     return (
         <div
             className={`
-                card bg-base-100 p-2 w-40 h-65 shadow-sm rounded-none!
-                ${isFirstItem ? "mr-3 rounded-r-xl! " : ""}
-                ${isLastItem ? "ml-5 rounded-l-xl!" : ""}
+                card bg-base-100 p-2 w-40 h-57 shadow-sm rounded-none!
+                ${item.border ? "mr-3 rounded-r-xl!" : ""}
             `}
         >
             <figure>
@@ -19,7 +16,7 @@ const Card = ({ item, index, total }) => {
             </figure>
 
             <div className="card-body p-0 items-start">
-                <h2 className="card-title pt-2 px-2 text-sm line-clamp-2">
+                <h2 className="card-title pt-2 px-2 text-[13px] line-clamp-2">
                     {item.title}
                 </h2>
 

@@ -5821,20 +5821,20 @@
   ],
   "ads": [
     {
-      "title": "پارتنرشیپ کاسیو",
-      "img": "./img/ads/img-1.jpg"
+      "title": "سیستم های خورشیدی قابل حمل",
+      "img": "/assets/images/ads/img-1.jpg"
     },
     {
-      "title": "پارتنرشیپ سافتلن",
-      "img": "./img/ads/img-2.jpg"
+      "title": "ضد آفتاب",
+      "img": "/assets/images/ads/img-2.gif"
     },
     {
-      "title": "همراه اول",
-      "img": "./img/ads/img-3.jpg"
+      "title": "پرفروش ترین مودم ها",
+      "img": "/assets/images/ads/img-3.jpg"
     },
     {
-      "title": "محبوب ترین کنسول بازی در دیجی کالا",
-      "img": "./img/ads/img-4.jpg"
+      "title": "هر چی برای خنک شدن لازم داری",
+      "img": "/assets/images/ads/img-4.jpg"
     }
   ],
   "amazing": [

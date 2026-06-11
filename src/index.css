@@ -4,6 +4,8 @@
     themes: light --default;
 }
 
+
+
 @keyframes modal-slide-up {
     from {
         transform: translateY(100%);

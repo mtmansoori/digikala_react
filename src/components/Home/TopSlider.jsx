@@ -1,23 +1,10 @@
-import { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
+import { useTopSlider } from '../../Hooks/Home/useTopSlider';
 import "swiper/css";
 
 const TopSlider = () => {
-    const [slider, setSlider] = useState([]);
-    const fetchSlidedr = async () => {
-        try {
-            const data = await fetch("/db.json");
-            const res = await data.json();
-            setSlider(res.slider);
-        } catch (error) {
-            console.log(error.message);
-        }
-    }
-
-    useEffect(() => {
-        fetchSlidedr();
-    }, [])
+    const { slider } = useTopSlider();
     return (
         <Swiper
             dir="rtl"

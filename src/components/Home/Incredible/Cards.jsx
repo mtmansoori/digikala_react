@@ -1,33 +1,18 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { useEffect, useState } from "react";
 import Card from "./Card";
+import MoreCard from "./MoreCard";
+import {useIncredibleOffers} from "../../../Hooks/Home/useIncredibleOffers";
 
 const Cards = () => {
-    const [incredible, setIncredible] = useState([]);
-
-    const fetchIndredible = async () => {
-        try {
-            const data = await fetch("/db.json");
-            const res = await data.json();
-
-            setIncredible(res.incredible);
-        } catch (error) {
-            console.log(error.message);
-
-        }
-    }
-
-    useEffect(() => {
-        fetchIndredible();
-    }, []);
+    const { incredible } = useIncredibleOffers();
     return (
-         <Swiper
+        <Swiper
             dir="rtl"
             slidesPerView="auto"
             spaceBetween={2}
             grabCursor={true}
-            
+
             className="w-full py-2"
         >
             {incredible?.map((item, index) => (
@@ -39,6 +24,9 @@ const Cards = () => {
                     />
                 </SwiperSlide>
             ))}
+                 <SwiperSlide className="w-fit! pb-3 ml-2">
+                    <MoreCard/>
+                 </SwiperSlide>
         </Swiper>
     );
 }
