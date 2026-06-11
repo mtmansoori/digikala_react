@@ -6,8 +6,15 @@ import BottomNav from "../../components/BottomNav/BottomNav"
 import CategoryList from "../../components/Home/CategoryList";
 import Incredible from "../../components/Home/Incredible/Incredible";
 import Ads from "../../components/Home/Ads/Ads";
+import { useIncredibleOffers } from "/src/Hooks/Home/useIncredibleOffers"
+import FastDelivery from "../../components/Home/FastDelivery/FastDelivery";
+
 
 const Home = () => {
+    const { incredible } = useIncredibleOffers();
+    
+    
+
     return (
         <div className="pb-20 bg-neutral-100">
             <img
@@ -24,9 +31,12 @@ const Home = () => {
                 <CategoryList />
 
                 <div className="-mx-3">
-                    <Incredible />
+                    <Incredible items = {incredible} />
                 </div>
-                <Ads/>
+                <Ads />
+                   <div className="-mx-3">
+                    <FastDelivery/>
+                </div>
             </div>
 
             <BottomNav />

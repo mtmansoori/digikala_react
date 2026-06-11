@@ -1,7 +1,7 @@
 import { AiOutlineLeft } from "react-icons/ai";
-import Cards from "./Cards";
+import Cards  from "/src/components/Cards/Cards"
 
-const Incredible = () => {
+const Incredible = ({items = []}) => {
     return (<div className="bg-[linear-gradient(225deg,#d22c4e_0%,#ee384e_100%)] h-fit  ">
         <div className="flex items-center ">
             <div className="flex w-full items-center justify-between pt-5 px-4 pb-3">
@@ -29,7 +29,7 @@ const Incredible = () => {
                 </div>
             </div>
         </div>
-       <Cards/>
+        <Cards items = {items} />
     </div>);
 }
 

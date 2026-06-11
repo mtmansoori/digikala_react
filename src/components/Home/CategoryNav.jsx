@@ -13,7 +13,7 @@ const CategoryNav = () => {
                 <div
                     key={index}
                     onClick={() => handleActiveService(index)}
-                    className={`flex flex-col border rounded-lg items-center justify-center min-w-18 gap-1 transition-all duration-300 ${isScrolled ? "h-8 align-middle px-3 py-1" : "h-16 min-h-17 p-2"
+                    className={`flex flex-col border rounded-lg items-center justify-center min-w-18 gap-1 transition-all duration-300 ${isScrolled ? "h-8 align-middle px-3 py-1" : "h-16 min-h-17 "
                         } ${item.active ? themeClasses[item.theme] : themeClasses.default
                         }`}
                 >
@@ -24,7 +24,7 @@ const CategoryNav = () => {
                             }`}
                     />
 
-                    <span className="text-xs font-medium">{item.Stitle}</span>
+                    <span className="text-xs font-medium -top-1 leading-none">{item.Stitle}</span>
 
 
                 </div>

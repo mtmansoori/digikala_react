@@ -1,11 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Card from "./Card";
-import MoreCard from "./MoreCard";
-import {useIncredibleOffers} from "../../../Hooks/Home/useIncredibleOffers";
-
-const Cards = () => {
-    const { incredible } = useIncredibleOffers();
+import MoreCard from "../Home/Incredible/MoreCard";
+import {useIncredibleOffers} from "/src/Hooks/Home/useIncredibleOffers"
+const Cards = ({items = []}) => {
+    const total = items.length;
     return (
         <Swiper
             dir="rtl"
@@ -15,12 +14,12 @@ const Cards = () => {
 
             className="w-full py-2"
         >
-            {incredible?.map((item, index) => (
+            {items?.map((item, index) => (
                 <SwiperSlide key={index} className="w-fit! pb-3">
                     <Card
                         item={item}
                         index={index}
-                        total={incredible.length}
+                        total={total}
                     />
                 </SwiperSlide>
             ))}
