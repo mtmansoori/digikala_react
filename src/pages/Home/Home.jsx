@@ -11,6 +11,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { fetchIncredbleOffers } from "../../redux/IncredibleOffers/Action"
 import { fetchIncredbleOffers2 } from "../../redux/IncredibleOffers2/Action";
+import CategoryGrouping from "../../components/Home/CategoryGrouping";
 
 const Home = () => {
 
@@ -51,6 +52,8 @@ const Home = () => {
                 <div className="-mx-3">
                     <Incredible items={incredibleOffers2} className={`bg-[linear-gradient(225deg,#6BB927_0%,#9DC44D_100%)] mt-3`} />
                 </div>
+
+                <CategoryGrouping/>
             </div>
 
             <BottomNav />
