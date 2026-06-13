@@ -8891,6 +8891,104 @@
       "oldPrice": "۶۶۰,۰۰۰"
     }
   ],
+  "incredible2": [
+    {
+      "border": true,
+      "img": "/assets/images/Incredible2/img-1.jpg",
+      "title": "عسل کنار خوانسار - 1000 گرم",
+      "discount": "۶۵",
+      "newPrice": "۱,۳۶۵,۰۰۰",
+      "oldPrice": "۳,۹۰۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "img": "/assets/images/Incredible2/img-2.jpg",
+      "title": "عسل چهل گیاه ممتاز خوانسار - 1000 گرم",
+      "discount": "۶۲%",
+      "newPrice": "۶۹۹,۰۰۰",
+      "oldPrice": "۸۵۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "img": "/assets/images/Incredible2/img-3.jpg",
+      "title": "شامپو مو آنالوکس مدل Hydrolyzed Milk مناسب انواع مو حجم 500 میلی لیتر",
+      "discount": "۶۰٪",
+      "newPrice": "۱,۹۷۹,۰۰۰",
+      "oldPrice": "۷۸۵,۵۰۰"
+    },
+    {
+      "border": false,
+      "img": "/assets/images/Incredible2/img-4.jpg",
+      "title": "سوهان گزی با جوانه گندم حاج محمد قربانی - 1000 گرم",
+      "discount": "۵۷٪",
+      "newPrice": "۱,۳۵۰,۰۰۰",
+      "oldPrice": "۵۷۵,۰۰۰"
+    },
+    {
+      "border": false,
+      "img": "/assets/images/Incredible2/img-5.jpg",
+      "title": "عسل سنتی چند گیاه زنبورداران  -  1000 گرم",
+      "discount": "۵۷٪",
+      "newPrice": "۶۹۹,۰۰۰",
+      "oldPrice": "۱,۶۳۹,۰۰۰"
+    },
+    {
+      "border": false,
+      "img": "/assets/images/Incredible2/img-6.jpg",
+      "title": "عسل چهل گیاه ممتاز خوانسار - 1000 گرم",
+      "discount": "۵۶٪",
+      "newPrice": "۵۹۹,۰۰۰",
+      "oldPrice": "۱,۳۵۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "img": "/assets/images/Incredible2/img-7.jpg",
+      "title": "دستگاه تصفیه کننده آب زینود مدل کیسی CX107-WTDSM به همراه سختی سنج TDS-3",
+      "discount": "۵۵٪",
+      "newPrice": "۱۳,۸۹۰,۰۰۰",
+      "oldPrice": "۳۰,۶۰۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "img": "/assets/images/Incredible2/img-8.jpg",
+      "title": "عسل  طبیعی نمونه مخصوص خوانسار -۲۰۰۰ گرم",
+      "discount": "۵۵٪",
+      "newPrice": "۱,۶۸۷,۵۰۰",
+      "oldPrice": "۳,۷۵۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "img": "/assets/images/Incredible2/img-9.jpg",
+      "title": "مسواک کودک اسپارکل مدل s15 با برس نرم",
+      "discount": "۵۲٪",
+      "newPrice": "۱۱۹,۹۰۰",
+      "oldPrice": "۲۵۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "img": "/assets/images/Incredible2/img-10.jpg",
+      "title": "کنسرو سبزیجات مخلوط مائده - 380 گرم مجموعه 12 عددی",
+      "discount": "۵۰٪",
+      "newPrice": "۷۲۰,۰۰۰",
+      "oldPrice": "۱,۴۴۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "img": "/assets/images/Incredible2/img-11.jpg",
+      "title": "عسل طبیعی چهل گیاه کوهستان - 250 گرم",
+      "discount": "۵۰٪",
+      "newPrice": "۲۲۸,۰۰۰",
+      "oldPrice": "۴۶۰,۰۰۰"
+    },
+    {
+      "border": false,
+      "img": "/assets/images/Incredible2/img-12.jpg",
+      "title": "خرمای پیارم - 300 گرم",
+      "discount": "۵۰٪",
+      "newPrice": "۲۰۹,۰۰۰",
+      "oldPrice": "۴۱۸,۰۰۰"
+    }
+  ],
   "amazing": [
     {
       "img": "./img/amazing/img-1.png",

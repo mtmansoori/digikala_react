@@ -6,6 +6,7 @@ import Magnet from "../pages/Magnet/Magnet";
 import Profile from "../pages/Profile/Profile";
 import { Provider } from "react-redux";
 import store from "../redux/store";
+import AdminDashboard from "../pages/Admin/Home/IncredibleAdmin/AdminDashboard";
 
 const App = () => {
 
@@ -20,6 +21,7 @@ const App = () => {
                         <Route path="/cart" element={<Cart />} />
                         <Route path="/magnet" element={<Magnet />} />
                         <Route path="/profile" element={<Profile />} />
+                        <Route path="/admin" element={<AdminDashboard />} />
                     </Routes>
 
                 </BrowserRouter>
