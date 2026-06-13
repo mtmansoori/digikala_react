@@ -1,8 +1,16 @@
 import { AiOutlineClose, AiOutlineArrowLeft } from "react-icons/ai";
-import { useCategoryListModal } from "../../Hooks/Home/useCategoryListModal";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import { fetchCategoryListModal } from "../../redux/CategoryListModal/Action"
 const CategoryListModal = () => {
-    const { listModal, modalServices } = useCategoryListModal();
+    const { categoryListModal, modalServices, loading, error } = useSelector((state) => state.useCategoryListModal)
     
+    const dispatch = useDispatch();
+    useEffect(() => {
+        dispatch(fetchCategoryListModal())
+    }, [dispatch])
+    
+
     return (
         <dialog id="my_modal_3" className="modal modal-bottom p-0"
             onCancel={(e) => {
@@ -33,7 +41,7 @@ const CategoryListModal = () => {
                 </div>
 
                 <div className="grid grid-cols-3 gap-x-3 gap-y-4  px-6 py-10">
-                    {listModal.map((item, index) => (
+                    {categoryListModal.map((item, index) => (
                         <a
                             key={index}
                             href={item.url || item.link}

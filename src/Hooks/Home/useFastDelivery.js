@@ -8,7 +8,6 @@ const fetchFastDelivery = async () =>{
     }
 
     const res = await data.json();
-    console.log(res);
     
     return res.fastDelivery;
 }

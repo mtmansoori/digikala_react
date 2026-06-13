@@ -1,0 +1,3 @@
+export const SET_CATEGORY_NAV_LIST = "SET_CATEGORY_NAV_LIST"
+export const SET_LOADING = "SET_LOADING"
+export const SET_ERROR = "SET_ERROR"

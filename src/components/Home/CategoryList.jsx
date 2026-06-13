@@ -1,8 +1,15 @@
 import CategoryListModal from "./CategoryListModal";
-import { useCategoryList } from "../../Hooks/Home/useCategoryList";
-
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import { fetchCategoryList } from "../../redux/CategoryList/Action"
 const CategoryList = () => {
-    const { data: categoryList = [], isLoading, isError } = useCategoryList();
+    const { categoryList, loading, error } = useSelector((state) => state.useCategoryList);
+    const dispatch = useDispatch()
+
+    useEffect(() => {
+        dispatch(fetchCategoryList());
+    }, [dispatch])
+
     const handleCategoryClick = (index) => {
         const isLastItem = index === categoryList.length - 1;
 
@@ -13,8 +20,8 @@ const CategoryList = () => {
 
         handleActiveService(index);
     };
-    if (isLoading) return null;
-    if (isError) return null;
+
+    
     return (
         <>
             <div className="w-full py-4 overflow-x-auto scrollbar-none [&::-webkit-scrollbar]:hidden">

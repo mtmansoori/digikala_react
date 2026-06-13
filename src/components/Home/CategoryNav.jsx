@@ -1,15 +1,34 @@
 import SearchBar from "../../components/Home/SearchBar";
 import { BiBell } from "react-icons/bi";
-import { useCategoryNav } from "../../Hooks/Home/useCategoryNav";
 import { themeClasses } from "../../Constants/themes";
-
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchCategoryNav } from "../../redux/CategoryNav/Action"
 const CategoryNav = () => {
 
-    const { services, isScrolled, handleActiveService } = useCategoryNav();
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    const { categoryNavList, loading, error } = useSelector(
+        (state) => state.useCategoryNav
+    );
+    
+    
+
+    const dispatch = useDispatch();
+
+    const handleScroll = () => setIsScrolled(window.scrollY > 60);
+
+    useEffect(() => {
+        dispatch(fetchCategoryNav());
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, [dispatch]);
 
     return (<div className="sticky top-0 w-full p-1 overflow-scroll  z-99 bg-neutral-100 scrollbar-none [&::-webkit-scrollbar]:hidden">
         <div className="flex items-center gap-2  py-2 whitespace-nowrap">
-            {services.map((item, index) => (
+            {categoryNavList.map((item, index) => (
                 <div
                     key={index}
                     onClick={() => handleActiveService(index)}

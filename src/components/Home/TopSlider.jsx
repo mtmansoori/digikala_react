@@ -1,10 +1,18 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
-import { useTopSlider } from '../../Hooks/Home/useTopSlider';
 import "swiper/css";
+import { useDispatch, useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import {fetchTopSlider} from "../../redux/TopSlider/Action"
 
 const TopSlider = () => {
-    const { slider } = useTopSlider();
+    const {topSlider,loading,error} = useSelector((state)=>state.useTopSlider);
+    const dispatch = useDispatch();
+    
+    useEffect(()=>{
+        dispatch(fetchTopSlider());
+    },[dispatch])
+   
     return (
         <Swiper
             dir="rtl"
@@ -18,7 +26,7 @@ const TopSlider = () => {
             }}
             modules={[Autoplay]}
             className="w-full">
-            {slider.map((item) => (
+            {topSlider.map((item) => (
                 <SwiperSlide key={item.id} className='flex items-center align-middle'>
                     <a href={item.link} className="block h-45 w-full">
                         <img
