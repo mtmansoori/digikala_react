@@ -33,8 +33,8 @@ const Brands = () => {
                                     className="w-19.5 h-19.5 object-contain"
                                 />
                             </div>
-                            <div className="w-full h-full leading-7.5 border-gray-300 border-t items-center text-center font-semibold overflow-hidden whitespace-nowrap text-ellipsis">
-                                <h2 className="text-[14px]">{brand.title}</h2>
+                            <div className="w-full h-full leading-7.5 text-[12px] border-gray-300 border-t items-center text-center overflow-hidden whitespace-nowrap text-ellipsis">
+                                <h2 className="text-[11px]  px-3 truncate">{brand.title}</h2>
                             </div>
                         </div>
                     </SwiperSlide>

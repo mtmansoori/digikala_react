@@ -4,7 +4,25 @@
     themes: light --default;
 }
 
+@font-face {
+    font-family: 'iranYekan';
+    src: url('/src/assets/Fonts/iranYekan/iranyekanwebregular.e31c09af-Cf3V5OE8.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'iranYekanBold';
+    src: url('/src/assets/Fonts/iranYekan/iranyekanwebbold.cfb6e26c-CXIR7OyN.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  font-family: 'iranYekan', sans-serif;
+}
 
 @keyframes modal-slide-up {
     from {
