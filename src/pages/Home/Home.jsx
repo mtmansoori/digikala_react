@@ -11,19 +11,24 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { fetchIncredbleOffers } from "../../redux/IncredibleOffers/Action"
 import { fetchIncredbleOffers2 } from "../../redux/IncredibleOffers2/Action";
+import {fetchSellOption} from "../../redux/SellOption/Action"
 import Brands from "../../components/Home/Brands";
 import TopSlider from "../../components/TopSlider/TopSlider";
-
+import SellOption from "../../components/SellOption/SellOption";
+import * as theme from "../../Constants/themes"
 const Home = () => {
 
     const { incredibleOffers, loading, error } = useSelector((state) => state.useIncredibleOffers)
     const { incredibleOffers2, loading2, error2 } = useSelector((state) => state.useIncredibleOffers2)
+    const {sellOptionList , loadingSellOption , errorSellOption } = useSelector((state) => state.useSellOption)
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(fetchIncredbleOffers())
         dispatch(fetchIncredbleOffers2())
+        dispatch(fetchSellOption("optionsM1"))
     }, [dispatch])
 
+    
 
 
     return (
@@ -42,7 +47,7 @@ const Home = () => {
                 <CategoryList />
 
                 <div className="-mx-3">
-                    <Incredible items={incredibleOffers} className={`bg-[linear-gradient(225deg,#d22c4e_0%,#ee384e_100%)]`} />
+                    <Incredible items={incredibleOffers} className={theme.bgIncredible} />
                 </div>
 
                 <Ads />
@@ -51,10 +56,12 @@ const Home = () => {
                 </div>
                 <Ads />
                 <div className="-mx-3">
-                    <Incredible items={incredibleOffers2} className={`bg-[linear-gradient(225deg,#6BB927_0%,#9DC44D_100%)] mt-3`} />
+                    <Incredible items={incredibleOffers2} className={`${theme.bgIncredible2} mt-3`} />
                 </div>
 
-                <Brands/>
+                <Brands />
+               <hr className=" w-full h-2 bg-neutral-200 mt-3 border-none" />
+                <SellOption title="کیف و کاور گوشی"  items={sellOptionList} />
             </div>
 
             <BottomNav />

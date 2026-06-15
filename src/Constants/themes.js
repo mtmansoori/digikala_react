@@ -9,3 +9,6 @@ export const themeClasses = {
     pharmacy: "bg-cyan-700 text-white border-cyan-700",
     default: "bg-white text-gray-600 border-gray-200",
 };
+
+export const bgIncredible = 'bg-[linear-gradient(225deg,#d22c4e_0%,#ee384e_100%)]'
+export const bgIncredible2 = 'bg-[linear-gradient(225deg,#6BB927_0%,#9DC44D_100%)]'
