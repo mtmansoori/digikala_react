@@ -1,7 +1,7 @@
 import AddressBar from "../../components/Home/AddressBar";
 import CategoryNav from "../../components/Home/CategoryNav";
 
-import TopSlider from "../../components/Home/TopSlider";
+
 import BottomNav from "../../components/BottomNav/BottomNav"
 import CategoryList from "../../components/Home/CategoryList";
 import Incredible from "../../components/Home/Incredible/Incredible";
@@ -11,7 +11,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { fetchIncredbleOffers } from "../../redux/IncredibleOffers/Action"
 import { fetchIncredbleOffers2 } from "../../redux/IncredibleOffers2/Action";
-import CategoryGrouping from "../../components/Home/CategoryGrouping";
+import Brands from "../../components/Home/Brands";
+import TopSlider from "../../components/TopSlider/TopSlider";
 
 const Home = () => {
 
@@ -53,7 +54,7 @@ const Home = () => {
                     <Incredible items={incredibleOffers2} className={`bg-[linear-gradient(225deg,#6BB927_0%,#9DC44D_100%)] mt-3`} />
                 </div>
 
-                <CategoryGrouping/>
+                <Brands/>
             </div>
 
             <BottomNav />

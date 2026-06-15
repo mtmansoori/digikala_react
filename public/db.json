@@ -9319,92 +9319,104 @@
   ],
   "brands": [
     {
+      "id":1,
       "title": "پریل",
-      "img": "./img/brands/img-1.png"
+      "img": "/assets/images/brands/img-1.png"
     },
     {
+      "id":2,
       "title": "پرسیل",
-      "img": "./img/brands/img-2.png"
+      "img": "/assets/images/brands/img-2.png"
     },
     {
+      "id":3,
       "title": "چرم مشهد",
-      "img": "./img/brands/img-3.png"
+      "img": "/assets/images/brands/img-3.jpg"
     },
     {
+      "id":4,
       "title": "آداتا",
-      "img": "./img/brands/img-4.png"
+      "img": "/assets/images/brands/img-4.png"
     },
     {
+      "id":5,
       "title": "چینی زرین ایران",
-      "img": "./img/brands/img-6.png"
+      "img": "/assets/images/brands/img-5.png"
     },
     {
+      "id":6,
       "title": "پنتر",
-      "img": "./img/brands/img-7.png"
+      "img": "/assets/images/brands/img-6.jpg"
     },
     {
+      "id":7,
       "title": "ایکس ویژن",
-      "img": "./img/brands/img-8.png"
+      "img": "/assets/images/brands/img-7.jpg"
     },
     {
+      "id":8,
       "title": "پمینا",
-      "img": "./img/brands/img-9.png"
+      "img": "/assets/images/brands/img-8.png"
     },
     {
+      "id":9,
       "title": "نتربیت",
-      "img": "./img/brands/img-10.png"
+      "img": "/assets/images/brands/img-9.png"
     },
     {
+      "id":10,
       "title": "هوآوی",
-      "img": "./img/brands/img-11.png"
+      "img": "/assets/images/brands/img-10.png"
     },
     {
+      "id":11,
       "title": "یوروویتال",
-      "img": "./img/brands/img-12.png"
+      "img": "/assets/images/brands/img-11.jpg"
     },
     {
+      "id":12,
       "title": "لافارر",
-      "img": "./img/brands/img-13.png"
+      "img": "/assets/images/brands/img-12.png"
     },
     {
+      "id":13,
       "title": "شیائومی",
-      "img": "./img/brands/img-14.png"
+      "img": "/assets/images/brands/img-13.png"
     },
     {
+      "id":14,
       "title": "مای",
-      "img": "./img/brands/img-15.png"
+      "img": "/assets/images/brands/img-14.png"
     },
     {
+      "id":15,
       "title": "سامسونگ",
-      "img": "./img/brands/img-16.png"
+      "img": "/assets/images/brands/img-15.jpg"
     },
     {
+      "id":16,
       "title": "اکتیو",
-      "img": "./img/brands/img-17.png"
+      "img": "/assets/images/brands/img-16.jpg"
     },
     {
+      "id":17,
       "title": "ساعی",
-      "img": "./img/brands/img-18.png"
+      "img": "/assets/images/brands/img-17.jpg"
     },
     {
+      "id":18,
       "title": "کاله",
-      "img": "./img/brands/img-19.png"
+      "img": "/assets/images/brands/img-18.png"
     },
     {
+      "id":19,
       "title": "ویتالیر",
-      "img": "./img/brands/img-20.png"
+      "img": "/assets/images/brands/img-19.png"
     },
     {
+      "id":20,
       "title": "فولیکا",
-      "img": "./img/brands/img-21.png"
-    },
-    {
-      "title": "",
-      "img": "./img/brands/img-22.png"
-    },
-    {
-      "title": "",
-      "img": "./img/brands/img-23.png"
+      "img": "/assets/images/brands/img-20.jpg"
     }
   ],
   "options": [

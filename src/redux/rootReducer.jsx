@@ -6,6 +6,7 @@ import ReducerCategoryListModal from "./CategoryListModal/ReducerCategoryListMod
 import ReducerIncredibleOffers from "./IncredibleOffers/ReducerIncredibleOffers";
 import ReducerIncredibleOffers2 from "./IncredibleOffers2/ReducerIncredibleOffers2";
 import ReducerCategoryGrouping from "./CategoryGrouping/ReducerCategoryGrouping";
+import ReducerBrands from "./Brands/ReducerBrands";
 
 const rootReducer = combineReducers({
     useCategoryNav: ReducerCategoryNav,
@@ -14,7 +15,8 @@ const rootReducer = combineReducers({
     useCategoryListModal:ReducerCategoryListModal,
     useIncredibleOffers:ReducerIncredibleOffers,
     useIncredibleOffers2:ReducerIncredibleOffers2,
-    useCategoryGrouping: ReducerCategoryGrouping
+    useCategoryGrouping: ReducerCategoryGrouping,
+    useBrands:ReducerBrands
 }
 )
 
