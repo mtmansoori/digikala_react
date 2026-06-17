@@ -30,6 +30,8 @@ const Home = () => {
         dispatch(fetchSellOption("optionsM1"))
         dispatch(fetchSellOption("optionsM2"))
         dispatch(fetchSellOption("optionsM3"))
+        dispatch(fetchSellOption("optionsM4"))
+        dispatch(fetchSellOption("optionsM5"))
     }, [dispatch])
 
 
@@ -71,6 +73,9 @@ const Home = () => {
                     <SellOption title="ویتامین ها و مواد معدنی" items={data.optionsM2} loading={loading.optionsM2} />
                     <SellOption title="گوشی موبایل" items={data.optionsM3} loading={loading.optionsM3} />
                     <hr className=" w-full h-2 bg-neutral-200 mt-3 border-none" />
+                    <SellOption title="هدفون، هدست و هندزفری" items={data.optionsM4} loading={loading.optionsM4} />
+                    <hr className=" w-full h-2 bg-neutral-200 mt-3 border-none" />
+                     <SellOption title="سایر لوازم خودرو" items={data.optionsM5} loading={loading.optionsM5} />
                 </div>
             </div>
 

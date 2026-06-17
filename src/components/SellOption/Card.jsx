@@ -13,7 +13,7 @@ const Card = ({ item }) => {
             <div className="p-1">
 
                 <div className="p-0 items-start">
-                    <h2 className="pt-2 px-2 text-[11px] text-neutral-700 font-semibold line-clamp-2">
+                    <h2 className="pt-2 px-2 text-[11px] text-neutral-700 font-semibold line-clamp-2  h-10">
                         {item.title}
                     </h2>
 
