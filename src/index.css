@@ -13,15 +13,35 @@
 }
 
 @font-face {
-    font-family: 'iranYekanBold';
+    font-family: 'iranYekan';
+    src: url('/src/assets/Fonts/iranYekan/iranyekanwebmedium.2d4f96e5-DTeqUXTf.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iranYekan';
     src: url('/src/assets/Fonts/iranYekan/iranyekanwebbold.cfb6e26c-CXIR7OyN.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'iranYekan';
+    src: url('/src/assets/Fonts/iranYekan/iranyekanwebextrabold.9346e9a2-Dxjz_CQ8.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+    --font-iranyekan: 'iranYekan', sans-serif;
+}
+
 body {
-  font-family: 'iranYekan', sans-serif;
+    font-family: 'iranYekan', sans-serif;
 }
 
 @keyframes modal-slide-up {

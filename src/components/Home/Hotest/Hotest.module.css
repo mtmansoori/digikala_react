@@ -1,0 +1,34 @@
+.container {
+    width: 100%;
+    background: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 12px;
+}
+
+
+.swiper {
+    width: 100% !important;
+    height: 290px !important;
+    align-items: center;
+    gap: 2;
+}
+
+.slide {
+    width: 80% !important;  
+    height: auto !important;
+    margin: 0 auto !important;
+}
+
+
+:global(.swiper-pagination) {
+    bottom: 10px;
+}
+
+:global(.swiper-pagination-bullet) {
+    background: #007bff !important;
+}
+
+:global(.swiper-pagination-bullet-active) {
+    background: #0056b3 !important;
+}

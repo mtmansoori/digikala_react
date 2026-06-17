@@ -1,4 +1,4 @@
-import { SET_INCREDIBLE_OFFERS, SET_LOADING, SET_ERROR , ADD_INCREDIBLE_OFFERS} from "./ActionTypes"
+import { SET_INCREDIBLE_OFFERS, SET_LOADING_INCREDIBLE_OFFERS, SET_ERROR_INCREDIBLE_OFFERS , ADD_INCREDIBLE_OFFERS} from "./ActionTypes"
 
 export const setIncredibleOffers = (data) => {
     return {
@@ -10,14 +10,14 @@ export const setIncredibleOffers = (data) => {
 
 export const setLoading = (status) => {
     return {
-        type: SET_LOADING,
+        type: SET_LOADING_INCREDIBLE_OFFERS,
         payload: status
     }
 }
 
 export const setError = (error) => {
     return {
-        type: SET_ERROR,
+        type: SET_ERROR_INCREDIBLE_OFFERS,
         payload: error
     }
 }

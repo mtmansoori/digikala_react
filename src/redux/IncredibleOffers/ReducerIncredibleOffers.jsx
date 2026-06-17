@@ -1,9 +1,14 @@
-import { SET_INCREDIBLE_OFFERS, SET_LOADING, SET_ERROR, ADD_INCREDIBLE_OFFERS } from "./ActionTypes"
+import {
+    SET_INCREDIBLE_OFFERS,
+    SET_LOADING_INCREDIBLE_OFFERS,
+    SET_ERROR_INCREDIBLE_OFFERS,
+    ADD_INCREDIBLE_OFFERS,
+} from "./ActionTypes";
 
 const initState = {
-    loading: true,
+    loadingIncredible: true,
     incredibleOffers: [],
-    error: null
+    errorIncredible: null,
 };
 
 const ReducerIncredibleOffers = (state = initState, action) => {
@@ -16,15 +21,15 @@ const ReducerIncredibleOffers = (state = initState, action) => {
                 ...state,
                 incredibleOffers: [...state.incredibleOffers, action.payload],
             };
-        case SET_LOADING: {
-            return { ...state, loading: action.payload };
+        case SET_LOADING_INCREDIBLE_OFFERS: {
+            return { ...state, loadingIncredible: action.payload }; 
         }
-        case SET_ERROR: {
-            return { ...state, error: action.payload };
+        case SET_ERROR_INCREDIBLE_OFFERS: {
+            return { ...state, errorIncredible: action.payload };   
         }
         default:
             return state;
     }
-}
+};
 
-export default ReducerIncredibleOffers
+export default ReducerIncredibleOffers;
