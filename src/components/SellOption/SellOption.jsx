@@ -5,10 +5,10 @@ import MoreCard from "../Home/Incredible/MoreCard";
 
 const SellOption = ({ title, items = [] }) => {
 
-    return (<div className="p-3">
+    return (<div className="p-3 bg-white">
         <div>
             <div className="flex justify-between">
-                <h3 className="text-neutral-900 font-bold">{title}</h3>
+                <h3 className="text-neutral-800 font-semibold text-[0.9rem]">{title}</h3>
                 <div className="flex flex-wrap items-center gap-1">
                     <span className="leading-5 h-full text-[13px] font-semibold text-neutral-900">مشاهده همه</span>
                     <AiOutlineLeft />

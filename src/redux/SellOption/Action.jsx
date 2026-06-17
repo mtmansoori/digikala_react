@@ -1,30 +1,30 @@
 import * as actionType from "./ActionType"
 
-const setSellOption = (data) => {
+const setSellOption = (key, data) => {
     return {
         type: actionType.SET_SELL_OPTION,
-        payload: data
+        payload: { key, data }
     }
 }
 
-const setLoading = (status) => {
+const setLoading = (key, status) => {
     return {
         type: actionType.SET_LOADING,
-        payload: status
+        payload: { key, status }
     }
 }
 
-const setError = (error) => {
+const setError = (key, error) => {
     return {
         type: actionType.SET_ERROR,
-        payload: error
+        payload: { key, error }
     }
 }
 
 export const fetchSellOption = (option) => {
     return async (dispatch) => {
-        dispatch(setLoading(true));
-        dispatch(setError(null));
+        dispatch(setLoading(option , true));
+        dispatch(setError(option , null));
 
         try {
             const data = await fetch("/db.json");
@@ -35,12 +35,12 @@ export const fetchSellOption = (option) => {
 
             const res = await data.json();
 
-            dispatch(setSellOption(res[option]));
-            dispatch(setLoading(false));
+            dispatch(setSellOption(option , res[option]));
+            dispatch(setLoading(option , false));
 
         } catch (error) {
-            dispatch(setLoading(false));
-            dispatch(setError(error.message));
+            dispatch(setLoading(option , false));
+            dispatch(setError(option , error.message));
         }
     };
 }

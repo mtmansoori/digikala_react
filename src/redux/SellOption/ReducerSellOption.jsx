@@ -1,24 +1,26 @@
 import * as actionType from "./ActionType"
 const initState = {
-    loading: true,
-    sellOptionList: [],
-    error: null
+    loading: {},
+    data: {},
+    error: {}
 };
 
 const ReducerSellOption = (state = initState, action) => {
     switch (action.type) {
         case actionType.SET_SELL_OPTION: {
-            return { ...state, sellOptionList: action.payload };
+            const { key, data } = action.payload;
+            return { ...state, data: { ...state.data, [key]: data } };
         }
         case actionType.SET_LOADING: {
-            return { ...state, loading: action.payload};
+            const { key, status } = action.payload;
+            return { ...state, loading: { ...state.loading, [key]: status } };
         }
         case actionType.SET_ERROR: {
-            return { ...state, error: action.payload };
+            const { key, error } = action.payload;
+            return { ...state, error: { ...state.error, [key]: error } };
         }
         default:
             return state;
     }
 }
-
 export default ReducerSellOption

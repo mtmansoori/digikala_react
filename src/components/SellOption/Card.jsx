@@ -13,7 +13,7 @@ const Card = ({ item }) => {
             <div className="p-1">
 
                 <div className="p-0 items-start">
-                    <h2 className="pt-2 px-2 text-[11px] font-semibold line-clamp-2">
+                    <h2 className="pt-2 px-2 text-[11px] text-neutral-700 font-semibold line-clamp-2">
                         {item.title}
                     </h2>
 
@@ -32,7 +32,7 @@ const Card = ({ item }) => {
                         </div>
 
                         <div className="flex justify-start">
-                            <div className="px-2 p-1 text-[15px] font-bold">
+                            <div className="px-2 p-1 text-[15px] text-neutral-800 font-bold">
                                 {item.newPrice}
                             </div>
                         </div>

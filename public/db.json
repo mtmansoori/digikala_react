@@ -8811,7 +8811,7 @@
       "oldPrice": "0"
     },
     {
-      "id":3,
+      "id": 3,
       "title": "گوشی موبایل سامسونگ مدل Galaxy S25 FE دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - ویتنام",
       "img": "/assets/images/FastDelivery/img-3.jpg",
       "discount": "0",
@@ -8874,7 +8874,7 @@
       "newPrice": "۶,۹۰۰,۰۰۰",
       "oldPrice": "۷,۳۰۰,۰۰۰"
     },
-        {
+    {
       "id": 11,
       "title": "قرص ویتامین D3-1000 واحدی  بسته 60 عددی",
       "img": "/assets/images/FastDelivery/img-11.jpg",
@@ -8882,7 +8882,7 @@
       "newPrice": "۲۳۶,۳۱۰",
       "oldPrice": "۲۴۲,۰۰۰"
     },
-           {
+    {
       "id": 12,
       "title": "قرص زینک پلاس یوروویتال 15 میلی گرم بسته 60 عددی",
       "img": "/assets/images/FastDelivery/img-12.jpg",
@@ -9319,102 +9319,102 @@
   ],
   "brands": [
     {
-      "id":1,
+      "id": 1,
       "title": "پریل",
       "img": "/assets/images/brands/img-1.png"
     },
     {
-      "id":2,
+      "id": 2,
       "title": "پرسیل",
       "img": "/assets/images/brands/img-2.png"
     },
     {
-      "id":3,
+      "id": 3,
       "title": "چرم مشهد",
       "img": "/assets/images/brands/img-3.jpg"
     },
     {
-      "id":4,
+      "id": 4,
       "title": "آداتا",
       "img": "/assets/images/brands/img-4.png"
     },
     {
-      "id":5,
+      "id": 5,
       "title": "چینی زرین ایران",
       "img": "/assets/images/brands/img-5.png"
     },
     {
-      "id":6,
+      "id": 6,
       "title": "پنتر",
       "img": "/assets/images/brands/img-6.jpg"
     },
     {
-      "id":7,
+      "id": 7,
       "title": "ایکس ویژن",
       "img": "/assets/images/brands/img-7.jpg"
     },
     {
-      "id":8,
+      "id": 8,
       "title": "پمینا",
       "img": "/assets/images/brands/img-8.png"
     },
     {
-      "id":9,
+      "id": 9,
       "title": "نتربیت",
       "img": "/assets/images/brands/img-9.png"
     },
     {
-      "id":10,
+      "id": 10,
       "title": "هوآوی",
       "img": "/assets/images/brands/img-10.png"
     },
     {
-      "id":11,
+      "id": 11,
       "title": "یوروویتال",
       "img": "/assets/images/brands/img-11.jpg"
     },
     {
-      "id":12,
+      "id": 12,
       "title": "لافارر",
       "img": "/assets/images/brands/img-12.png"
     },
     {
-      "id":13,
+      "id": 13,
       "title": "شیائومی",
       "img": "/assets/images/brands/img-13.png"
     },
     {
-      "id":14,
+      "id": 14,
       "title": "مای",
       "img": "/assets/images/brands/img-14.png"
     },
     {
-      "id":15,
+      "id": 15,
       "title": "سامسونگ",
       "img": "/assets/images/brands/img-15.jpg"
     },
     {
-      "id":16,
+      "id": 16,
       "title": "اکتیو",
       "img": "/assets/images/brands/img-16.jpg"
     },
     {
-      "id":17,
+      "id": 17,
       "title": "ساعی",
       "img": "/assets/images/brands/img-17.jpg"
     },
     {
-      "id":18,
+      "id": 18,
       "title": "کاله",
       "img": "/assets/images/brands/img-18.png"
     },
     {
-      "id":19,
+      "id": 19,
       "title": "ویتالیر",
       "img": "/assets/images/brands/img-19.png"
     },
     {
-      "id":20,
+      "id": 20,
       "title": "فولیکا",
       "img": "/assets/images/brands/img-20.jpg"
     }
@@ -9532,106 +9532,132 @@
   ],
   "optionsM2": [
     {
-      "title": "لپ تاپ 15.6 اینچی لنوو مدل V15 G2 IJL-Celeron N4500-8GB DDR4-256GB SSD-TN - کاستوم شده",
-      "img": "./img/options/mobile/2/img-1.jpg",
-      "newPrice": "۴۵,۹۰۰,۰۰۰"
+      "title": "قرص ویتامین D3-1000 واحدی  بسته 60 عددی",
+      "img": "/assets/images/SellOption/opt2/img-1.jpg",
+      "discount": "۸۳٪",
+      "oldPrice": "۹۲۴,۰۰۰",
+      "newPrice": "۱۵۹,۰۰۰"
     },
     {
-      "title": "لپ تاپ 15.6 اینچی لنوو مدل IdeaPad Slim 3 15IRU8-i3 1315U-8GB LPDDR5 4800MHz-256GB SSD-TN",
-      "img": "./img/options/mobile/2/img-2.jpg",
-      "discount": "۶٪",
-      "oldPrice": "۶۳,۰۰۰,۰۰۰",
-      "newPrice": "۵۸,۹۹۹,۰۰۰"
+      "title": "کپسول ژلاتینی نرم زینک پلاس فلکسان بسته 60 ععدی",
+      "img": "/assets/images/SellOption/opt2/img-2.jpg",
+      "discount": "۸۳٪",
+      "oldPrice": "۱,۰۵۶,۰۰۰",
+      "newPrice": "۱۷۵,۰۰۰"
     },
     {
-      "title": "لپ تاپ 15.6 اینچی لنوو مدل V15 G2 IJL-Celeron N4500-4GB DDR4-256GB SSD-TN",
-      "img": "./img/options/mobile/2/img-3.jpg",
-      "discount": "۳٪",
-      "oldPrice": "۴۸,۰۰۰,۰۰۰",
-      "newPrice": "۴۶,۵۶۰,۰۰۰"
+      "title": "ساشه منیزیم بیس گلایسینات یوروویتال - 150 میلی گرم بسته 14 عددی",
+      "img": "/assets/images/SellOption/opt2/img-3.jpg",
+      "discount": "۷۰٪",
+      "oldPrice": "۷۷۰,۰۰۰",
+      "newPrice": "۲۳۰,۰۰۰"
     },
     {
-      "title": "لپ تاپ 15.6 اینچی لنوو مدل LOQ 15IRX9-i7 13650HX-24GB DDR5 4800MHz-512GB SSD-RTX3050 6GB-FHD 144Hz",
-      "img": "./img/options/mobile/2/img-4.jpg",
-      "newPrice": "۱۷۵,۹۰۰,۰۰۰"
+      "title": "کپسول ویتامین ای 400 واحد یوروویتال بسته 40 عددی",
+      "img": "/assets/images/SellOption/opt2/img-4.jpg",
+      "discount": "۶۱٪",
+      "oldPrice": "۷۹۲,۰۰۰",
+      "newPrice": "۳۰۶,۰۰۰"
     },
     {
-      "title": "لپ تاپ 15.6 اینچی لنوو مدل V15 G4 IRU-i3 1315U-8GB DDR4 3200MHz-256GB SSD-TN",
-      "img": "./img/options/mobile/2/img-5.jpg",
-      "newPrice": "۶۵,۷۰۰,۰۰۰"
+      "title": "قرص ویتامین ب کمپلکس یوروویتال بسته 60 عددی",
+      "img": "/assets/images/SellOption/opt2/img-5.jpg",
+      "discount": "۶۴٪",
+      "oldPrice": "۵۷۴,۲۰۰",
+      "newPrice": "۲۰۶,۲۰۰"
     },
     {
-      "title": "لپ تاپ 15.6 اینچی ایسوس مدل Vivobook 15 F1504VA-NJ826-i7 1355U-16GB DDR4 3200MHz-512GB SSD-TN-Fingerprint-Backlit",
-      "img": "./img/options/mobile/2/img-6.jpg",
-      "newPrice": "۱۰۷,۹۹۰,۰۰۰"
+      "title": "قرص مولتی پلاس فور من اسپرت یوروویتال بسته 60 عددی",
+      "img": "/assets/images/SellOption/opt2/img-6.jpg",
+      "discount": "۶۷٪",
+      "oldPrice": "۱,۴۹۱,۶۰۰",
+      "newPrice": "۴۹۰,۰۰۰"
     },
     {
-      "title": "لپ تاپ 15.6 اینچی لنوو مدل V15 G4 AMN-Athlon Silver 7120U-8GB LPDDR5-256GB SSD-TN",
-      "img": "./img/options/mobile/2/img-7.jpg",
-      "newPrice": "۵۴,۵۰۰,۰۰۰"
+      "title": "قرص ویتامین ث 1000 یورویتال بسته 60 عددی",
+      "img": "/assets/images/SellOption/opt2/img-7.jpg",
+      "discount": "۵۱٪",
+      "oldPrice": "۴۶۲,۰۰۰",
+      "newPrice": "۲۲۴,۱۲۰"
     },
     {
-      "title": "لپ تاپ 15.6 اینچی لنوو مدل IdeaPad 1 15IJL7-Celeron N4500-8GB DDR4 2933MHz-256GB SSD-TN FHD",
-      "img": "./img/options/mobile/2/img-8.jpg",
-      "discount": "۴٪",
-      "oldPrice": "۴۶,۲۰۰,۰۰۰",
-      "newPrice": "۴۴,۴۹۹,۰۰۰"
+      "title": "کپسول نورو بی ویت یوروویتال بسته 60 عددی",
+      "img": "/assets/images/SellOption/opt2/img-8.jpg",
+      "discount": "۷۱٪",
+      "oldPrice": "۶۲۷,۰۰۰",
+      "newPrice": "۱۸۰,۰۰۰"
     },
     {
-      "title": "لپ تاپ 14 اینچی ایسوس مدل Vivobook Go 14 E410KA-CL464-Celeron N4500-4GB DDR4 3200MHz-64GB eMMC-TN-W",
-      "img": "./img/options/mobile/2/img-9.jpg",
-      "newPrice": "۳۷,۵۰۰,۰۰۰"
+      "title": "کپسول ژلاتینی نرم زینک پلاس فلکسان بسته 60 ععدی",
+      "img": "/assets/images/SellOption/opt2/img-9.jpg",
+      "discount": "۸۳٪",
+      "oldPrice": "۹۲۴,۰۰۰",
+      "newPrice": "۱۵۹,۰۰۰"
     }
   ],
   "optionsM3": [
     {
-      "title": "سوییچ یاب آی کیو مدل Key Finder کد Smart-25",
-      "img": "./img/options/mobile/3/img-1.jpg",
-      "discount": "۲۶٪",
-      "oldPrice": "۴,۰۰۰,۰۰۰",
-      "newPrice": "۲,۹۶۰,۰۰۰"
+      "title": "گوشی موبایل اپل مدل iPhone 17 Pro Max ZAA تک سیم کارت + eSim ظرفیت 256 گیگابایت و رم 12 گیگابایت - نات اکتیو ",
+      "img": "/assets/images/SellOption/opt3/img-1.jpg",
+      "discount": "۲٪",
+      "oldPrice": "۳۵۸,۹۹۹,۰۰۰",
+      "newPrice": "۳۵۲,۹۹۹,۰۰۰"
     },
     {
-      "title": "سوییچ یاب آی کیو مدل Key Finder کد Smart-b25",
-      "img": "./img/options/mobile/3/img-2.jpg",
-      "discount": "۲۶٪",
-      "oldPrice": "۴,۰۰۰,۰۰۰",
-      "newPrice": "۲,۹۶۰,۰۰۰"
+      "title": "گوشی موبایل ناتینگ مدل CMF Phone 2 Pro دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+      "img": "/assets/images/SellOption/opt3/img-2.jpg",
+      "discount": "0",
+      "oldPrice": "0",
+      "newPrice": "۶۵,۸۰۰,۰۰۰"
     },
     {
-      "title": "کلید یاب آی کیو مدل Key Finder کد Smart-r25",
-      "img": "./img/options/mobile/3/img-3.jpg",
-      "newPrice": "۵,۰۰۰,۰۰۰"
+      "title": "گوشی موبایل موتورولا مدل Edge 60 Fusion دو سیم کارت ظرفیت 256 گیگابایت و رم 12 گیگابایت",
+      "img": "/assets/images/SellOption/opt3/img-3.jpg",
+      "discount": "0",
+      "oldPrice": "0",
+      "newPrice": "۸۰,۸۹۹,۰۰۰"
     },
     {
-      "title": "آینه وسط خودرو مدل استیل کد 54",
-      "img": "./img/options/mobile/3/img-4.jpg",
-      "newPrice": "۹۹۹,۰۰۰"
+      "title": "گوشی موبایل شیائومی مدل Poco X7 Pro دو سیم کارت ظرفیت 512 گیگابایت و رم 12 گیگابایت - گلوبال",
+      "img": "/assets/images/SellOption/opt3/img-4.jpg",
+      "discount": "0",
+      "oldPrice": "0",
+      "newPrice": "۸۴,۴۰۰,۰۰۰"
     },
     {
-      "title": "لوله خرطومی سیم کشی خودرو طاووس کابل پارسیان مدل تی 130/5",
-      "img": "./img/options/mobile/3/img-5.jpg",
-      "newPrice": "۳۳۰,۰۰۰"
+      "title": "گوشی موبایل اپل مدل iPhone 17 CH دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - نات اکتیو",
+      "img": "/assets/images/SellOption/opt3/img-5.jpg",
+      "discount": "0",
+      "oldPrice": "0",
+      "newPrice": "۲۳۸,۵۰۰,۰۰۰"
     },
     {
-      "title": "خار میل جک صندوق خودرو مدل per02 مناسب برای پراید بسته چهار عددی",
-      "img": "./img/options/mobile/3/img-6.jpg",
-      "newPrice": "۹۵,۰۰۰"
+      "title": "گوشی موبایل سامسونگ مدل Galaxy S25 FE دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - ویتنام",
+      "img": "/assets/images/SellOption/opt3/img-6.jpg",
+      "discount": "0",
+      "oldPrice": "0",
+      "newPrice": "۱۱۶,۳۰۰,۰۰۰"
     },
     {
-      "title": "استیکر خودرو کد 427",
-      "img": "./img/options/mobile/3/img-7.jpg",
-      "newPrice": "۸۵,۰۰۰"
+      "title": "گوشی موبایل شیائومی مدل Redmi Note 15 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+      "img": "/assets/images/SellOption/opt3/img-7.jpg",
+      "discount": "0",
+      "oldPrice": "0",
+      "newPrice": "۴۰,۲۵۰,۰۰۰"
     },
     {
-      "title": "کابل اتصال باتری خودرو طاووس کابل پارسیان مدل 110 دابل پلاس اف 7",
-      "img": "./img/options/mobile/3/img-8.jpg",
-      "newPrice": "۴,۵۰۰,۰۰۰"
+      "title": "گوشی موبایل سامسونگ مدل Galaxy A56 دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت - ویتنام",
+      "img": "/assets/images/SellOption/opt3/img-8.jpg",
+      "discount": "0",
+      "oldPrice": "0",
+      "newPrice": "۷۹,۰۰۰,۰۰۰"
     },
     {
-      "title": "کاردک شیشه دودی خودرو کد k110110",
-      "img": "./img/options/mobile/3/img-9.jpg",
-      "newPrice": "۴۱۸,۰۰۰"
+      "title": "گوشی موبایل شیائومی مدل Redmi 15 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت ",
+      "img": "/assets/images/SellOption/opt3/img-9.jpg",
+      "discount": "0",
+      "oldPrice": "0",
+      "newPrice": "۳۱,۹۵۰,۰۰۰"
     }
   ],
   "optionsM4": [

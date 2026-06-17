@@ -11,24 +11,28 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { fetchIncredbleOffers } from "../../redux/IncredibleOffers/Action"
 import { fetchIncredbleOffers2 } from "../../redux/IncredibleOffers2/Action";
-import {fetchSellOption} from "../../redux/SellOption/Action"
+import { fetchSellOption } from "../../redux/SellOption/Action"
 import Brands from "../../components/Home/Brands";
 import TopSlider from "../../components/TopSlider/TopSlider";
 import SellOption from "../../components/SellOption/SellOption";
 import * as theme from "../../Constants/themes"
+import CategoryGrouping from "../../components/Home/CategoryGrouping";
 const Home = () => {
 
     const { incredibleOffers, loading, error } = useSelector((state) => state.useIncredibleOffers)
     const { incredibleOffers2, loading2, error2 } = useSelector((state) => state.useIncredibleOffers2)
-    const {sellOptionList , loadingSellOption , errorSellOption } = useSelector((state) => state.useSellOption)
+    const { data, loadingOption, errorOption } = useSelector((state) => state.useSellOption)
+
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(fetchIncredbleOffers())
         dispatch(fetchIncredbleOffers2())
         dispatch(fetchSellOption("optionsM1"))
+        dispatch(fetchSellOption("optionsM2"))
+        dispatch(fetchSellOption("optionsM3"))
     }, [dispatch])
 
-    
+
 
 
     return (
@@ -58,10 +62,16 @@ const Home = () => {
                 <div className="-mx-3">
                     <Incredible items={incredibleOffers2} className={`${theme.bgIncredible2} mt-3`} />
                 </div>
-
+                <CategoryGrouping />
                 <Brands />
-               <hr className=" w-full h-2 bg-neutral-200 mt-3 border-none" />
-                <SellOption title="کیف و کاور گوشی"  items={sellOptionList} />
+                <div className="-mx-3">
+                    <hr className=" w-full h-2 bg-neutral-200 mt-3 border-none" />
+                    <SellOption title="کیف و کاور گوشی" items={data.optionsM1} loading={loading.optionsM1} />
+                    <hr className=" w-full h-2 bg-neutral-200 mt-3 border-none" />
+                    <SellOption title="ویتامین ها و مواد معدنی" items={data.optionsM2} loading={loading.optionsM2} />
+                    <SellOption title="گوشی موبایل" items={data.optionsM3} loading={loading.optionsM3} />
+                    <hr className=" w-full h-2 bg-neutral-200 mt-3 border-none" />
+                </div>
             </div>
 
             <BottomNav />
