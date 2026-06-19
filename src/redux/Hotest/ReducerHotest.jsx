@@ -1,20 +1,23 @@
 import * as actionType from './ActionType'
 const initState = {
-    loadingHotest: true,
-    hotestList: [],
-    errorHotest: null,
+    loadingHotest: {},
+    data2: {},
+    errorHotest: {},
 };
 
 const ReducerHotest = (state = initState, action) => {
     switch (action.type) {
         case actionType.SET_LIST_HOTEST: {
-            return { ...state, hotestList: action.payload };
+            const { key, data } = action.payload;
+            return { ...state, data2: { ...state.data2, [key]: data } };
         }
         case actionType.SET_LOADING_HOTEST: {
-            return { ...state, loadingHotest: action.payload };
+            const { key, status } = action.payload;
+            return { ...state, loadingHotest: { ...state.loadingHotest, [key]: status } };
         }
         case actionType.SET_ERROR_HOTEST: {
-            return { ...state, errorHotest: action.payload };
+            const { key, error } = action.payload;
+            return { ...state, errorHotest: { ...state.errorHotest, [key]: error } };
         }
         default:
             return state;

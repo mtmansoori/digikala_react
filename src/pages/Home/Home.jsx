@@ -19,12 +19,14 @@ import SellOption from "../../components/SellOption/SellOption";
 import * as theme from "../../Constants/themes"
 import CategoryGrouping from "../../components/Home/CategoryGrouping";
 import Hotest from "../../components/Home/Hotest/Hotest";
+import Footer from "../../components/Home/Footer/Footer";
+import SupportFab from "../../components/Home/SupportFab";
 const Home = () => {
 
     const { incredibleOffers, loadingIncredible, errorIncredible } = useSelector((state) => state.useIncredibleOffers)
     const { incredibleOffers2, loading2, error2 } = useSelector((state) => state.useIncredibleOffers2)
     const { data, loadingOption, errorOption } = useSelector((state) => state.useSellOption)
-    const { hotestList, loadingHotest, errorHotest } = useSelector((state) => state.useHotest)
+    const { data2, loadingHotest, errorHotest } = useSelector((state) => state.useHotest)
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(fetchIncredbleOffers())
@@ -34,21 +36,19 @@ const Home = () => {
         dispatch(fetchSellOption("optionsM3"))
         dispatch(fetchSellOption("optionsM4"))
         dispatch(fetchSellOption("optionsM5"))
-        dispatch(fetchHotest())
+        dispatch(fetchHotest("hot"))
+        dispatch(fetchHotest("mostSell"))
     }, [dispatch])
 
 
 
-
-
     return (
-        <div className="pb-20 bg-neutral-100">
+        <div className="pb-17 bg-neutral-100 md:hidden">
             <img
                 src="/assets/images/mobile-banner.gif"
                 alt=""
                 className="block object-cover h-9 w-full"
             />
-
             <CategoryNav />
 
             <div className="px-3">
@@ -90,11 +90,26 @@ const Home = () => {
 
                     <SellOption title="سایر لوازم خودرو" items={data.optionsM5} loading={loadingOption?.optionsM5} />
                     <hr className=" w-full h-2 bg-neutral-200 mt-3 border-none" />
-                    <Hotest items={hotestList} loading={loadingHotest} />
+                    <div className="-mx-3">
+
+                        <Hotest
+                            items={data2?.mostSell}
+                            title="پرفروش‌ترین کالاها"
+                            loading={loadingHotest?.mostSell}
+                        />
+                        <hr className=" w-full h-2 bg-neutral-200 mt-3 border-none" />
+                        <Hotest
+                            items={data2?.hot}
+                            title="داغ‌ترین چند ساعت گذشته"
+                            loading={loadingHotest?.hot}
+                        />
+                    </div>
                 </div>
             </div>
-
+            <SupportFab/>
+            <Footer/>
             <BottomNav />
+            
         </div>
     );
 };

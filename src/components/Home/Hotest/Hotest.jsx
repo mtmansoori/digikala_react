@@ -8,10 +8,10 @@ import 'swiper/css/pagination';
 
 import styles from './Hotest.module.css';
 
-const Hotest = ({ items, loading }) => {
+const Hotest = ({ items , title , loading }) => {
     return (
         <div className={styles.container}>
-            <h3 className='pb-2 px-2 font-bold'>داغ‌ترین چند ساعت گذشته</h3>
+            <h3 className='pb-2 px-2 font-bold'>{title}</h3>
             <Swiper
                 slidesPerView={1.6}
                 grid={{

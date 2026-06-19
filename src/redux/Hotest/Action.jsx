@@ -1,31 +1,31 @@
 import * as actionType from "./ActionType"
 
-const setHotest = (data) => {
+const setHotest = (key, data) => {
     return {
         type: actionType.SET_LIST_HOTEST,
-        payload: data
+        payload: { key, data }
     }
 }
 
-const setLoadingHotest = (status) => {
+const setLoadingHotest = (key, status) => {
     return {
         type: actionType.SET_LOADING_HOTEST,
-        payload: status
+        payload: { key, status }
     }
 }
 
-const setErroHotest = (error) => {
+const setErroHotest = (key, error) => {
     return {
         type: actionType.SET_ERROR_HOTEST,
-        payload: error
+        payload: { key, error }
     }
 }
 
 
-export const fetchHotest = () => {
+export const fetchHotest = (option) => {
     return async (dispatch) => {
-        setLoadingHotest(true)
-        setErroHotest("")
+        dispatch(setLoadingHotest(option, true));
+        dispatch(setErroHotest(option, null));
 
         try {
             const data = await fetch("/db.json");
@@ -36,12 +36,12 @@ export const fetchHotest = () => {
 
             const res = await data.json();
 
-            dispatch(setHotest(res.hot));
-            dispatch(setLoadingHotest(false));
+            dispatch(setHotest(option, res[option]));
+            dispatch(setLoadingHotest(option, false));
 
         } catch (error) {
-            dispatch(setLoadingHotest(false));
-            dispatch(setErroHotest(error.message));
+            dispatch(setLoadingHotest(option, false));
+            dispatch(setErroHotest(option, error.message));
         }
     };
 };
