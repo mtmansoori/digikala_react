@@ -55,7 +55,7 @@ const Footer = () => {
             <hr className="w-full text-stone-300" />
             <div className="w-full flex justify-between items-center gap-4">
                 <div className="flex gap-2 items-center">
-                    <img className="w-9 h-9 rounded-full" src="/public/assets/images/brands/logo-footer.webp" alt="" />
+                    <img className="w-9 h-9 rounded-full" src="./assets/images/brands/logo-footer.webp" alt="" />
                     <div className="flex flex-col gap-1.5">
                         <span className="text-[12px] text-neutral-900 font-semibold">اپلیکیشن دیجی‌کالا</span>
                         <span className="text-[12px] text-neutral-500">تجربه خرید بهتر در</span>

@@ -3,7 +3,7 @@ import { MdExpandMore } from "react-icons/md";
 
 const Partners = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const images = Array.from({ length: 15 }, (_, i) => `/public/assets/images/partners/img-${i + 1}.svg`);
+    const images = Array.from({ length: 15 }, (_, i) => `./assets/images/partners/img-${i + 1}.svg`);
 
     return (
         <div className="w-full">

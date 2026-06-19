@@ -10,7 +10,7 @@ const SearchBar = () => {
                 <div className="pointer-events-none absolute px-1 inset-0 flex gap-1 items-center text-neutral-500 font-bold opacity-70">
                     <span className="text-sm mb-2 text-neutral-500 opacity-70">جستجو در</span>
                     <img
-                        src="/public/assets/images/SearchBar/searchbar-breand.png"
+                        src="./assets/images/SearchBar/searchbar-breand.png"
                         alt=""
                         className="h-5  rounded-full inline-block object-cover"
                     />

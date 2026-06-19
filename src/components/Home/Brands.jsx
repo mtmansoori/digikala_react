@@ -14,7 +14,7 @@ const Brands = () => {
         <div>
             <div className="flex mt-5  gap-2  ">
                 <div>
-                    <img src="/public/assets/images/brands/ic-brands.svg" alt="" />
+                    <img src="./assets/images/brands/ic-brands.svg" alt="" />
                 </div>
                 <h6 className="text-neutral-900 font-bold  text-[13px] leading-5">محبوب ترین برندها</h6>
             </div>
