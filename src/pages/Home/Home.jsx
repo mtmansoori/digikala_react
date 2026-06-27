@@ -43,7 +43,7 @@ const Home = () => {
 
 
     return (
-        <div className="pb-17 bg-neutral-100 md:hidden">
+        <div className="pb-17 bg-neutral-100 ">
             <img
                 src="/assets/images/mobile-banner.gif"
                 alt=""
@@ -106,10 +106,10 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <SupportFab/>
-            <Footer/>
+            <SupportFab />
+            <Footer />
             <BottomNav />
-            
+
         </div>
     );
 };

@@ -14,7 +14,7 @@ const App = () => {
         <Provider store={store}>
 
             <div dir="rtl">
-                <BrowserRouter>
+                <BrowserRouter basename="/digikala_react/">
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/categories" element={<Categories />} />
